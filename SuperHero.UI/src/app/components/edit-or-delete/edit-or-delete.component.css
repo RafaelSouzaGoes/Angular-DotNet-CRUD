@@ -1,4 +1,3 @@
-
 .page-content{
   width: 100vw;
   height: auto;
@@ -20,18 +19,32 @@
 }
 .form-v5-content{
   background: #fff;
-  width: 95vw;
-  height: 100vh;
+  width: 670px;
   border-radius: 8px;
   -o-border-radius: 8px;
   -ms-border-radius: 8px;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
-  margin: 20px 0;
-  padding: 10px;
+  margin: 175px 0;
   font-family: roboto,sans-serif;
   color: #333;
   font-weight: 400;
   position: relative;
   font-size: 18px;
+}
+
+.form-v5-content .form-detail{
+  padding: 30px 45px;
+  position: relative;
+}
+
+.button-input{
+  text-align: center;
+}
+
+.button-input > button {
+  margin-top: 15px;
+  margin-right: 15px;
+  border-radius: 10px;
+  padding: 5px 60px;
 }

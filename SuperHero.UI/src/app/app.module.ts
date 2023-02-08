@@ -12,6 +12,7 @@ import { FooterBarComponent } from './components/footer-bar/footer-bar.component
 import { HomeComponent } from './pages/home/home.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
 import { ListaComponent } from './pages/lista/lista.component';
+import { EditOrDeleteComponent } from './components/edit-or-delete/edit-or-delete.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ListaComponent } from './pages/lista/lista.component';
     FooterBarComponent,
     HomeComponent,
     CadastroComponent,
-    ListaComponent
+    ListaComponent,
+    EditOrDeleteComponent
   ],
   imports: [
     BrowserModule,

@@ -1,1 +1,32 @@
-<p>lista works!</p>
+
+<div class="page-content">
+  <div class="form-v5-content" style="overflow-x: auto;" >
+    <table class="table align-middle mb-0 bg-white " >
+      <thead class="bg-light">
+        <tr >
+          <th>Nome Heroi</th>
+          <th>Primeiro Nome</th>
+          <th>Sobrenome</th>
+          <th>Cidade</th>
+        </tr>
+      </thead>
+      <tbody >
+        <tr *ngFor="let hero of heroes">
+          <td>{{ hero.name }}</td>
+          <td>{{ hero.firstName }}</td>
+          <td>{{ hero.lastName }}</td>
+          <td>{{ hero.place }}</td>
+
+          <td><button (click)="editHero(hero)" class="btn btn-warning">Editar</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<app-edit-or-delete
+  [hero]="editHeroes"
+  (heroesUpdate)="updateListHeroes($event)"
+></app-edit-or-delete>
+
+

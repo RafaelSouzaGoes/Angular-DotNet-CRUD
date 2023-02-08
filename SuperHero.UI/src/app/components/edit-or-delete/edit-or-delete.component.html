@@ -1,0 +1,66 @@
+
+
+<div *ngIf="hero" class="page-content">
+  <div class="form-v5-content">
+    <div class="form-detail">
+      <div class="col g-3 needs-validation aling-center">
+        <div class="col-md-12">
+          <label for="validationCustom01" class="form-label">Nome Heroi</label>
+          <input
+            [(ngModel)]="hero.name"
+            class="form-control"
+            placeholder="Nome Heroi"
+            required
+          />
+        </div>
+
+        <div class="col-md-12">
+          <label for="validationCustom01" class="form-label"
+            >Primeiro Nome</label
+          >
+          <input
+            [(ngModel)]="hero.firstName"
+            class="form-control"
+            placeholder="Primeiro Nome"
+            required
+          />
+        </div>
+        <div class="col-md-12">
+          <label for="validationCustom02" class="form-label">Sobrenome</label>
+          <input
+            [(ngModel)]="hero.lastName"
+            class="form-control"
+            id="validationCustom02"
+            placeholder="Sobrenome"
+            required
+          />
+        </div>
+        <div class="col-md-12">
+          <label for="validationCustom03" class="form-label">Cidade</label>
+          <input
+            [(ngModel)]="hero.place"
+            class="form-control"
+            placeholder="Cidade"
+            required
+          />
+        </div>
+        <div class="col-12 button-input">
+          <button
+            class="btn btn-primary "
+            (click)="updateHero(hero)"
+            *ngIf="hero.id"
+          >
+            Salvar
+          </button>
+          <button
+            class="btn btn-danger "
+            (click)="deleteHero(hero)"
+            *ngIf="hero.id"
+          >
+            Deletar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
