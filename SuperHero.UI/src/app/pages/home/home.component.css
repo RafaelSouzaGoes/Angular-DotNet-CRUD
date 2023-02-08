@@ -1,0 +1,19 @@
+.container__select {
+  height: 100vh;
+  width: 100vw;
+  background-color: #5eb2b3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container__select__cadastro > h2 > a {
+  text-decoration: none;
+  color: black;
+}
+
+.container__select__lista > h2 > a {
+  text-decoration: none;
+  color: black;
+}
