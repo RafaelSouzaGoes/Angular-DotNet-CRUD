@@ -1,0 +1,52 @@
+
+
+<div class="page-content">
+  <div class="form-v5-content">
+    <form class="form-detail" (ngSubmit)="createHero(hero)">
+      <div class="col g-3 needs-validation aling-center" novalidate>
+        <div class="col-md-12">
+          <label for="validationCustom01" class="form-label">Nome Heroi</label>
+          <input
+            [(ngModel)]="hero.name"
+            class="form-control"
+            placeholder="Nome Heroi"
+            required
+          />
+        </div>
+
+        <div class="col-md-12">
+          <label for="validationCustom01" class="form-label"
+            >Primeiro Nome</label
+          >
+          <input
+            [(ngModel)]="hero.firstName"
+            class="form-control"
+            placeholder="Primeiro Nome"
+            required
+          />
+        </div>
+        <div class="col-md-12">
+          <label for="validationCustom02" class="form-label">Sobrenome</label>
+          <input
+            [(ngModel)]="hero.lastName"
+            class="form-control"
+            placeholder="Sobrenome"
+            required
+          />
+        </div>
+        <div class="col-md-12">
+          <label for="validationCustom03" class="form-label">Cidade</label>
+          <input
+            [(ngModel)]="hero.place"
+            class="form-control"
+            placeholder="Cidade"
+            required
+          />
+        </div>
+        <div class="button-input">
+          <button class="btn btn-primary" type="submit">Criar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

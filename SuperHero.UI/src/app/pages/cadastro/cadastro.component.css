@@ -1,0 +1,58 @@
+.page-content{
+  width: 100vw;
+  height: 77.55vh;
+  margin: 0 auto;
+  background: #5eb2b3;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -o-justify-content: center;
+  -ms-justify-content: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -o-align-items: center;
+  -ms-align-items: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+
+}
+.form-v5-content{
+  background: #fff;
+  width: 670px;
+  border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  margin: 175px 0;
+  color: #333;
+  font-weight: 400;
+  position: relative;
+  font-size: 18px;
+}
+
+.form-v5-content .form-detail{
+  padding: 30px 45px;
+  position: relative;
+}
+
+
+
+.Container__Cadastro > .Container__Cadastro__Input {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 3px;
+}
+
+.button-input{
+  text-align: center;
+
+}
+
+.button-input > button {
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 5px 60px;
+}

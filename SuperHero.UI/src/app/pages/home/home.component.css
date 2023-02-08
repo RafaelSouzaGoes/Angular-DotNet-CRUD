@@ -11,9 +11,12 @@
 .container__select__cadastro > h2 > a {
   text-decoration: none;
   color: black;
+  line-height: 1.3;
+
 }
 
 .container__select__lista > h2 > a {
   text-decoration: none;
   color: black;
+  line-height: 1.3;
 }
